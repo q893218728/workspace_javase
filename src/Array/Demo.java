@@ -28,6 +28,7 @@ public class Demo {
         for (int i = 0; i < arr.length; i++) {
            int temp =  random.nextInt(x);
            arrayList.get(temp).addLast(arr[i]);
+
         }
         return arrayList;
     }
